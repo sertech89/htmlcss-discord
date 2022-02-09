@@ -106,12 +106,10 @@ nav ul li a{
 }
 
 
-
-
-
-
-
-
-
-
 /* FOOTER  */
+
+.sfondo-nero{
+    background-color: rgba(35,39,42,255);
+    min-height: 546px;
+    background-size: contain;
+}
