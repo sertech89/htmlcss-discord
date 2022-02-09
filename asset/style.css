@@ -18,8 +18,8 @@
 
 
   header{
-    height: 50px;                 
-    position: relative;
+    height: 50px;  
+    position: relative;               
     background-color: rgba(49,97,224,255);
     padding: 10px 0;
 }
@@ -70,6 +70,7 @@ nav ul li a{
     background-size: cover;
     /* background-repeat: no-repeat; */
     /* (con il COVER il no-repeat non serve) */
+    position: relative;
 }
 
 .testo-sfondo{
@@ -78,31 +79,111 @@ nav ul li a{
     /* float: ; */
     color: white;
     text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    font-size: 1.5em;
 }
 
 .sfondo-bianco{
     min-height: 546px;
-    background-color: white;
-    background-size: repeat;
+    /* width: 100%; */
+    background-color: white;    
 }
-
-/* .sfondo-onde{
-    min-height: 546px;
-    background-image: url(./img/wave.svg);
-    background-size: contain;  
-} */
 
 .sfondo-grigio{
     background-color: rgba(246,246,246,255);
     min-height: 546px;
-    background-size: contain;
 }
-
 
 .quarto-quadrante{  
     padding: 10px 0;
     background-color:rgba(246,246,246,255);
     height: 100vh;
+}
+
+/* PRIMO QUADRANTE */
+
+.column1{
+    float: left;
+    width: 50%;
+    margin-left: 124px;
+    margin-top: 50px;
+}
+
+.column2{
+    float: right;
+    width: 20%;
+    margin-right: 366px;
+    margin-top: 155px;
+}
+
+/* SECONDO QUADRANTE */
+
+.column3{
+    float: right;
+    width: 50%;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.column4{
+    float: left;
+    width: 20%;
+    margin-left: 345px;
+    margin-top: 240px;
+}
+
+
+/* TERZO QUADRANTE */
+
+.column5{
+    float: left;
+    width: 50%;
+    margin-left: -55px;
+    margin-top: 0px;
+}
+
+.column6{
+    float: right;
+    width: 20%;
+    margin-right: 333px;
+    margin-top: 240px;
+}
+
+
+
+/* SECONDO QUADRANTE */
+
+/* .pagina-2{
+    border: solid red 3px;
+} */
+
+/* .img-2{
+    float: right;
+    padding-right: 250px;
+    padding-top: 50px;
+
+} */
+
+/* TERZO QUADRANTE */
+
+/* .pagina-3{
+    border: solid green 3px;
+} */
+
+
+.img-3{
+    float: left;
+    padding-left: 250px;
+    padding-top: 50px;
+
+}
+
+/* QUARTO QUADRANTE */
+
+.img-4{
+    float: left;
 }
 
 
