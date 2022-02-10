@@ -29,7 +29,6 @@
     max-width: 1180px;  
     /* va bene anche solo una larghezza fissa con max-widht */
     margin: 0 auto;    
-
 } 
 
 nav ul li{
@@ -61,6 +60,7 @@ nav ul li a{
 
 
 /* CORPO */
+
 
 .container{
     width: 70%;
@@ -157,32 +157,59 @@ nav ul li a{
 
 /*  QUARTO QUADRANTE  */
 
-.fotofloat-4{
+.fullview{
     width: 100%;
-    height: 110vh;
+    height: 150vh;
     background-color: rgba(246,246,246,255);
-    position: relative;
-}
-
-.fotofloat-4 img{
-    width: 95%;
-    margin-top: 150px;
-    margin-left: 50px;
-}
-
-.testo{
-    position: absolute;
-    top: 50px;
-    right: 300px;
-    width: 110vh;
-}
-
-.testo-sotto{
-    position: absolute;
-    top: 750px;
     text-align: center;
-    margin-left: 350px;
-    margin-top: 100px;
+}
+
+.fullview h2{
+    color: black;
+    display: inline-block;
+    font-size: 56px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fullview{
+    color: black;
+    display: inline-block;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.fullview img{
+    width: 100%;
+}
+
+.stars{
+    background-image: url(./img/stars.svg);
+    width: 50%;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.fullview h3{
+    color: black;
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/*  FOOTER  */
+
+footer{
+    width: 100%;
+    height: 90vh;
+    background-color: #232323;
 }
 
 
@@ -191,7 +218,6 @@ nav ul li a{
 .ultima-pagina{
     width: 100%;
     height: 90vh;
-    background-color: black;
     position: relative;
 }
 
