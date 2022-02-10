@@ -25,12 +25,12 @@
 }
 
 .container-center{
-    /* width: 90%; */
+    width: 90%;
     max-width: 1180px;  
     /* va bene anche solo una larghezza fissa con max-widht */
-    margin: 0 auto;  
-    
-}
+    margin: 0 auto;    
+
+} 
 
 nav ul li{
     display: inline-block;
@@ -62,7 +62,10 @@ nav ul li a{
 
 /* CORPO */
 
-
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
 
 .img-sfondo{
     min-height: 546px;
@@ -85,112 +88,110 @@ nav ul li a{
     font-size: 1.5em;
 }
 
-.sfondo-bianco{
-    min-height: 546px;
-    /* width: 100%; */
-    background-color: white;    
-}
-
-.sfondo-grigio{
-    background-color: rgba(246,246,246,255);
-    min-height: 546px;
-}
-
-.quarto-quadrante{  
-    padding: 10px 0;
-    background-color:rgba(246,246,246,255);
-    height: 100vh;
-}
-
 /* PRIMO QUADRANTE */
 
-.column1{
+.fotofloat-1{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+
+.fotofloat-1 img{
+    width: 65%;
+    margin-top: 150px;
     float: left;
-    width: 50%;
-    margin-left: 124px;
-    margin-top: 50px;
 }
 
-.column2{
-    float: right;
-    width: 20%;
-    margin-right: 366px;
-    margin-top: 155px;
+.testo-laterale{
+    width: 35%;
+    margin-top: 190px;
+    float:left;
 }
 
-/* SECONDO QUADRANTE */
-
-.column3{
-    float: right;
-    width: 50%;
-    margin-left: 130px;
-    margin-top: 50px;
+.testo-laterale h2{
+    color: black;
+    display: inline-block;
+    font-size: 56px;
+    padding-bottom: 30px;
 }
 
-.column4{
-    float: left;
-    width: 20%;
-    margin-left: 345px;
-    margin-top: 240px;
+.testo-laterale p{
+    color: black;
+    display: inline-block;
+    font-size: 25px;
+    padding-bottom: 30px;
 }
 
-
-/* TERZO QUADRANTE */
-
-.column5{
-    float: left;
-    width: 50%;
-    margin-left: -55px;
-    margin-top: 0px;
+.testo{
+    color: black;
+    display: inline-block;
+    font-size: 25px;
 }
 
-.column6{
-    float: right;
-    width: 20%;
-    margin-right: 333px;
-    margin-top: 240px;
-}
+/*  FINE PRIMO QUADRANTE  */
 
 
 
 /* SECONDO QUADRANTE */
 
-/* .pagina-2{
-    border: solid red 3px;
-} */
+.fotofloat-2{
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(246,246,246,255);
+}
 
-/* .img-2{
+.fotofloat-2 img{
+    width: 65%;
+    margin-top: 150px;
     float: right;
-    padding-right: 250px;
-    padding-top: 50px;
-
-} */
-
-/* TERZO QUADRANTE */
-
-/* .pagina-3{
-    border: solid green 3px;
-} */
-
-
-.img-3{
-    float: left;
-    padding-left: 250px;
-    padding-top: 50px;
-
 }
 
-/* QUARTO QUADRANTE */
-
-.img-4{
-    float: left;
+.testo-laterale{
+    width: 35%;
+    margin-top: 190px;
+    float:right;
 }
 
 
-/* FOOTER  */
 
-.sfondo-nero{
-    background-color: rgba(35,39,42,255);
-    min-height: 546px;
-    background-size: contain;
+
+/*  QUARTO QUADRANTE  */
+
+.fotofloat-4{
+    width: 100%;
+    height: 110vh;
+    background-color: rgba(246,246,246,255);
+    position: relative;
 }
+
+.fotofloat-4 img{
+    width: 95%;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.testo{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    width: 110vh;
+}
+
+.testo-sotto{
+    position: absolute;
+    top: 750px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+
+
+
+.ultima-pagina{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    position: relative;
+}
+
