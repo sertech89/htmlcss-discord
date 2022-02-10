@@ -76,8 +76,6 @@ nav ul li a{
 }
 
 
-
-
 /* CORPO */
 
 
@@ -206,7 +204,7 @@ nav ul li a{
     background-image: url(./img/stars.svg);
     width: 50%;
     text-align: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding: 15px;
     vertical-align: middle;
