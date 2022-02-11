@@ -47,10 +47,18 @@ nav ul li a{
     vertical-align: middle;
 }
 
+#logo:hover{
+    transform: scale(1.2);
+}
+
 .menu{
     float: left;
     width: calc(100% - 200px);
     text-align: center;
+}
+
+a:hover{
+    transform: scale(1.2);
 }
 
 .accedi{
@@ -67,12 +75,22 @@ nav ul li a{
     background-color: white; 
 }
 
+.button:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
 .button-violet{
     background-color: rgba(142,161,225,255);
     border-radius: 40px;
     color: white;
     text-decoration: none;
     padding: 10px 20px;
+}
+
+.button-v:hover{
+    transform: scale(1.2);
+    transition: 1s;
 }
 
 
@@ -189,7 +207,7 @@ nav ul li a{
     padding-bottom: 30px;
 }
 
-.fullview{
+.fullview p{
     color: black;
     display: inline-block;
     font-size: 25px;
