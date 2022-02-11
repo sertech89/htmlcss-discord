@@ -254,3 +254,27 @@ footer{
     position: relative;
 }
 
+.big{
+    width: 20%;
+    background-color: white;
+    height: 50vh;
+    border: solid red 1px;
+    float: left;      
+}
+
+.small{
+    width: 15%;
+    background-color: white;
+    height: 50vh;
+    border: solid red 1px;
+    float: left;}
+
+.column{
+    margin: 10px 22px;
+}
+
+
+
+
+
+
